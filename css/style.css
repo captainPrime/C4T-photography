@@ -1,0 +1,364 @@
+/*navigation*/
+
+.navigation{
+    text-align: right;
+    padding: 50px;
+    padding-right: 200px;
+    margin-right: 50px;
+    background-color: #202125b4;
+    height: 100vh;
+    position: fixed;
+    z-index: 4;
+    top: 0px;
+    visibility: hidden;
+}
+
+.navigation ul{
+    margin-top: -70px;
+}
+
+.navigation ul li{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: -40px
+
+}
+
+.navigation ul li:hover{
+    color: rgba(255, 255, 255, 0.644);
+}
+
+.navigation a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.781)
+}
+
+#menu button{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: 2px solid rgb(240, 240, 240);
+    color: rgb(255, 253, 253);
+    background-color: rgba(255, 255, 255, 0.24);
+    transition: all ease-in 400ms;
+}
+
+#menu button:hover{
+    border: solid 2px rgba(0, 0, 0, 0.349);
+    color: rgba(0, 0, 0, 0.329)
+}
+
+h1, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#btn{
+   width: 200px;
+   transition: all ease-out 300 ms;
+}
+
+#btn:hover{
+    box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.699);
+    transform: translateY(-4px);
+    transition: all ease-out 300 ms;
+}
+
+#btn:active{
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+#landing{
+    transition: all ease-out 300 ms;
+    background-image: linear-gradient(rgba(2, 65, 65, 0.322), rgba(0, 0, 0, 0.7)), url("../images/05.jpg");      /*note*/
+    text-align: center;
+    min-height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header{
+    padding-top: 260px;
+}
+
+/*gallery hover*/
+ .gallery{
+     background-color: #202125;
+} 
+
+.collection-images{
+    padding-top: 20px;
+}
+.collection-images img{
+    height: 80px;
+    padding: 1px;
+    margin: 0px 10px 10px 0px;
+    border: solid 4px rgb(68, 68, 68);
+}
+
+.collection-images img:hover{
+    border: solid 3px rgb(38, 225, 250);
+    transition: all ease-in 150ms;
+    transform: translateY(-4px); 
+}
+
+
+/*galleries*/
+
+#text1{
+    color: rgb(71, 71, 71);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.collections .row img{
+    padding: 1px;
+    margin: 0
+}
+
+.collections .row{
+    padding: 30px;
+}
+
+/*Our Team*/
+
+.teams h3{
+    color: black;
+    text-align: center;
+}
+ 
+.teams h4{
+    text-align: center;
+}
+
+#hr, #ceo, #photographer{
+    text-align: center;
+}
+
+.teams img{
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 6px;
+}
+
+/*Card*/
+
+.card{
+    transition: all ease-in 400ms
+}
+
+/*contact*/
+
+.contact{
+    background-color: #202125
+}
+
+.about{
+    padding: 20px;
+    width: 53%;
+    float: left;
+}
+
+.feedback{
+    padding: 20px;
+    width: 47%;
+    float: right;
+    
+}
+
+.feedback input{
+    width: 100%;
+    padding: 9px;
+    border: solid rgb(21, 181, 255) 3px;
+    border-radius: 5px;
+    text-indent: 10px;
+    color: rgb(71, 71, 71);
+}
+.feedback textarea{
+    margin-top: 20px;
+    width: 100%;
+    border: solid rgb(21, 181, 255) 3px;
+    border-radius: 5px;
+    text-indent: 15px;
+}
+
+/*mission*/
+
+.mission{
+    background-image: linear-gradient(rgba(2, 65, 65, 0.322), rgba(0, 0, 0, 0.7)), url("../images/banner.jpg");      /*note*/
+    text-align: center;
+    min-height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mission h3{
+    text-align: center;
+    padding: 150px;
+    font-size: 290%;
+}
+
+/*food Area*/
+
+.big-picture{
+    
+    background-image: linear-gradient(rgba(2, 65, 65, 0.322), rgba(0, 0, 0, 0.7)), url("../images/food/1.jpg");
+    text-align: center;
+    min-height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+
+.big-picture button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 0.5px solid rgba(0, 0, 0, 0.253);
+    color:rgba(0, 0, 0, 0.562);
+    background-color: white;
+    transition: all ease-in 300ms
+}
+
+.big-picture button:hover{
+
+    border: 2px solid rgba(0, 0, 0, 0.904);
+    color:rgba(0, 0, 0, 0.897);
+    transition: all ease-out 300ms
+}
+
+.small-picture{
+    text-align: center;
+    padding: 20px;
+  
+}
+
+.small-picture img{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.small-picture h2{
+    text-transform: lowercase;
+}
+
+
+.side-pic{
+    float: right;
+    width: 25%;
+
+}
+
+.side-pic img{
+    width:50%; 
+    float: left;
+    margin-left: -50px;
+   margin-top: 30px;
+    border-radius: 30px;
+}
+
+.side-pic h4{
+    font-size: 20px;
+    color: #0d0d0ed8;
+    float: right;
+    width: 50%;
+    padding-top: 12px;
+}
+
+/*servies*/
+
+.service-img{
+    float: left;
+    width: 60%;
+}
+.service-img img{
+    width: 600px;
+    padding-left: 100px;
+    margin-left: 10px;
+}
+
+.service-list{
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.service-list ul{
+    list-style-type: none;
+}
+
+.service-list h2{
+    font-size: 35px;
+}
+/*Screen sizes*/
+
+@media (max-width: 600px){
+    .about{
+        width: 100%
+    }
+
+    .feedback{
+        width: 100%;
+    }
+  
+}
+
+@media (max-width: 1000px){
+    .service-img{
+        width: 100%;
+        text-align: center
+    }
+    .service-list{
+        width: 100%;
+        text-align: center;
+    }
+    .service-img img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px){
+    .service-img{
+        width: 100%;
+        text-align: center
+    }
+    .service-list{
+        width: 100%;
+        text-align: center;
+    }
+    .service-img img{
+        width: 400px;
+        margin-left: -100px;
+    }
+
+    .mission h3{
+        font-size: 30px;
+    }
+}
+
+
+
+
